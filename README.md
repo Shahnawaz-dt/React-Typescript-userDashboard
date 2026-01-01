@@ -1,8 +1,8 @@
-**React User Directory App**
+**React User Dashboard App**
 
 A clean, modern React + TypeScript application that fetches and displays user data from the JSONPlaceholder API.
 
-Features
+**Features**
 
 User List View
 Displays all users with name, company, city and email .
@@ -25,7 +25,7 @@ Axios for API requests
 CSS Modules for scoped, maintainable styling
 
 
-Tech Stack
+**Tech Stack**
 
 React 18
 TypeScript
@@ -34,12 +34,13 @@ Axios
 Vite (or Create React App)
 
 Getting Started
-Prerequisites
+
+**Prerequisites**
 
 Node.js (v16 or higher)
 npm or yarn
 
-Installation
+**Installation**
 Bashgit clone https://github.com/Shahnawaz-dt/React-Typescript-userDashboard.git
 cd your-repo-name
 npm install
@@ -75,4 +76,4 @@ React-Typescript-userDashboard/
 ├── vite.config.ts          ← If using Vite
 └── README.md               ← With your awesome content!
 
-Made with ❤️ by Ayon
+**Made with ❤️ by Ayon**
