@@ -1,4 +1,4 @@
-React User Directory App
+**React User Directory App**
 A clean, modern React + TypeScript application that fetches and displays user data from the JSONPlaceholder API.
 
 Features
@@ -44,7 +44,7 @@ cd your-repo-name
 npm install
 Run Locally
 Bashnpm run dev
-# or
+ or
 npm start
 Open http://localhost:5173 (or relevant port) to view the app.
 
