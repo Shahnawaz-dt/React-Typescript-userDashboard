@@ -50,29 +50,28 @@ Open http://localhost:5173 (or relevant port) to view the app.
 
 Project Structure
 React-Typescript-userDashboard/
+
 ├── public/
-│   └── index.html          # (if using Vite: vite.svg or other static assets)
+│   └── index.html
 ├── src/
+│   ├── assets/
+│   │   └── logo.svg
 │   ├── components/
-│   │   ├── User.tsx                # Your single user profile card component (with next/prev)
-│   │   ├── UserList.tsx            # Main list with search, filter & expandable details
+│   │   ├── User.tsx
+│   │   ├── UserList.tsx
 │   │   ├── UserList.module.css
-│   │   ├── User.module.css         # If you have one for the single user card
-│   │   └── UserProfile.module.css  # (optional, if separate)
+│   │   └── User.module.css
 │   ├── App.tsx
 │   ├── App.css
-│   ├── main.tsx                    # Entry point (React 18+)
-│   ├── index.css                   # Global styles (optional)
-│   ├── queryClient.ts              # Your TanStack Query client setup
-│   ├── vite-env.d.ts               # (for Vite) or react-app-env.d.ts (for CRA)
-│   └── assets/                     # Optional: for images like logo.svg
-│       └── logo.svg
+│   ├── main.tsx
+│   ├── index.css
+│   ├── queryClient.ts
+│   └── vite-env.d.ts
 ├── .gitignore
-├── package.json
-├── package-lock.json               # or yarn.lock / pnpm-lock.yaml
+├── package.json            ← Fixed name!
+├── package-lock.json
 ├── tsconfig.json
-├── vite.config.ts                  # If using Vite
-└── README.md
-
+├── vite.config.ts          ← If using Vite
+└── README.md               ← With your awesome content!
 
 Made with ❤️ by Ayon
