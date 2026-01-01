@@ -1,4 +1,5 @@
 **React User Directory App**
+
 A clean, modern React + TypeScript application that fetches and displays user data from the JSONPlaceholder API.
 
 Features
